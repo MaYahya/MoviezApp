@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/moviezapp/static/css/main.dd180181.css",
-    "main.js": "/moviezapp/static/js/main.620dcf7b.js",
+    "main.js": "/moviezapp/static/js/main.af147a81.js",
     "static/media/logo.png": "/moviezapp/static/media/logo.0a99580311eb52b8563f.png",
     "index.html": "/moviezapp/index.html",
     "main.dd180181.css.map": "/moviezapp/static/css/main.dd180181.css.map",
-    "main.620dcf7b.js.map": "/moviezapp/static/js/main.620dcf7b.js.map"
+    "main.af147a81.js.map": "/moviezapp/static/js/main.af147a81.js.map"
   },
   "entrypoints": [
     "static/css/main.dd180181.css",
-    "static/js/main.620dcf7b.js"
+    "static/js/main.af147a81.js"
   ]
 }
