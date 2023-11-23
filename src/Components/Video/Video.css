@@ -1,0 +1,85 @@
+.Video {
+  color: #ffffff;
+  padding: 20px;
+  width: 395px;
+  height: 350px;
+  transition: transform 100ms ease-in-out;
+  margin-bottom: 40px;
+}
+.Video > div > img {
+  object-fit: contain;
+  height: 300px;
+  width: 350px;
+}
+.Video:hover {
+  transform: scale(1.09);
+}
+.Video > .details > h2 {
+  padding-top: 10px;
+}
+.Video > .states {
+  display: none;
+}
+.Video:hover > .states {
+  display: inline-flex;
+}
+.details {
+  margin-top: -25px;
+}
+
+/* Styles for the modal */
+/* Center the modal in the viewport */
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 100%;
+
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.modal-content {
+  background-color: #000;
+  padding: 20px;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+}
+iframe {
+  width: 350px;
+  height: 300px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+}
+
+/* Rest of your styles... */
+/* Mobile view adjustments */
+@media screen and (max-width: 768px) {
+  .Video {
+    width: 100%; /* Set the width to 100% to fit the screen width */
+    margin-right: 0; /* Remove right margin */
+  }
+
+  .Video > div > img {
+    width: 100%; /* Set the image width to 100% for responsiveness */
+  }
+
+  .modal {
+    bottom: 100%; /* Adjust the modal's position to cover the entire screen */
+  }
+
+  iframe {
+    max-width: 100%; /* Ensure the iframe doesn't exceed the screen width */
+  }
+}

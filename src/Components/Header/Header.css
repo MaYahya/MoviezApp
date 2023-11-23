@@ -1,0 +1,77 @@
+.Header {
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  color: white;
+  overflow-x: scroll;
+}
+
+.Header::-webkit-scrollbar {
+  display: none;
+}
+.Header_Icons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+.Header_Icon {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+.Header_Icon > p {
+  display: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: small;
+}
+.Header_Icon:hover > p {
+  display: inline-flex !important;
+}
+.Header_Icon > .MuiSvgIcon-root {
+  margin-left: auto;
+  margin-right: auto;
+}
+.Header > img {
+  height: 50px;
+  object-fit: contain;
+  padding-right: 10px;
+}
+.Header_Active > p {
+  display: inline-flex !important;
+}
+/* SearchBar.css */
+
+/* Add this to your Header.css or create a separate CSS file for search-bar styles */
+
+.Header > .search-bar {
+  display: none;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 0 10px;
+  background-color: transparent;
+}
+
+.Header > .search-bar.visible {
+  display: flex;
+}
+
+.Header > .search-bar input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff; /* Text color */
+  font-size: 16px;
+  width: 200px;
+
+  padding: 5px;
+}
+
+/* Style the input and container as needed for your design */

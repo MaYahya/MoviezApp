@@ -1,0 +1,7 @@
+.results > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; /* Adjust this to align the videos at the top */
+  width: 100%;
+}
